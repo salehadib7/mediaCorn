@@ -6,9 +6,9 @@ const Card = ({ href, views, duration, link }) => {
 
   return (
     <div className="relative">
-      <div className=" card w-[450px] lg:w-[384px] h-60 md:h-[220px] bg-base-100 shadow-xl image-full">
+      <div className=" card w-[375px] lg:w-[384px] h-[200px] md:h-[220px] bg-base-100 shadow-xl image-full">
         <img
-          className="h-60 md:h-[220px] w-[450px] lg:w-[384px]"
+          className="h-[200px] md:h-[220px] w-[375px] lg:w-[384px]"
           src={href}
           alt="pictures"
         />
